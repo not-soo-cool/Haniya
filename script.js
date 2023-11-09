@@ -1,11 +1,23 @@
 // toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
+// let audioIcon = document.querySelector('.audio');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+// function playSound(audioName){
+//     let audio = new Audio(audioName);
+//     // audio.loop = true;
+//     audio.play();
+// }
+// // playSound("song.mp3");
+
+// audioIcon.onclick = () => {
+//     playSound('song.mp3');
+// }
 
 // scroll sections
 let sections = document.querySelectorAll('section');
